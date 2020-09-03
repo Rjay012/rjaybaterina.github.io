@@ -1,37 +1,429 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
 
-You can use the [editor on GitHub](https://github.com/Rjay012/rjaybaterina.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Epitome</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-### Markdown
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-```markdown
-Syntax highlighted code block
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
-# Header 1
-## Header 2
-### Header 3
+</head>
 
-- Bulleted
-- List
+<body id="top">
 
-1. Numbered
-2. List
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div>
 
-[Link](url) and ![Image](src)
-```
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Contacts</a></li>	
+            </ul>
+        </nav>
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+    </header> <!-- end s-header -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+        <div class="row intro-content">
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello, I'm Revien Jay E. Baterina</h3>
+                <h1>
+                    Beginner <br />
+                    Software Developer
+                </h1>
+            </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rjay012/rjaybaterina.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+            <div class="intro-grid"></div>
+            <!--<div class="intro-pic"></div>-->
+        </div> <!-- end row -->
+    </section> <!-- end intro -->
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        <div class="about-me">
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                    I studied at Pangasinan State University Urdaneta City Campus, I lived in the province of 
+                    Sison, Pangasinan. I took Information Technology because this what I am passionate about, specially
+                    interms of developing application.
+                    </p>
+
+                    <p>
+                    As a beginner in software development career, I want to increase my knowledge and skills as well as my confidence to solve more complex problems when developing application.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="BATERINA, REVIEN JAY (PROGRAMMER).docx" class="btn btn--primary full-width">Download CV</a>
+                </div>
+            </div>
+        </div> <!-- end about-me -->
+
+        <div class="about-experience">
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">Education & Trainings</h2>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Year Graduated: 2019</p>
+                                <h3 class="item-title">Pangasinan State University Urdaneta City Campus</h3>
+                                <h5>College</h5>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Year Graduated: 2015</p>
+                                <h3 class="item-title">Bantay Insik Integrated School</h3>
+                                <h5>High School</h5>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">Year Graduated: 2011</p>
+                                <h3 class="item-title">Pinmilapil Elementary School</h3>
+                                <h5>Elementary</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--work"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">February 2019 - April 2019</p>
+                                <h3 class="item-title">Professional Regulation Commission Baguio City</h3>
+                                <h5>Office staff and Software Developer</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>We developed an application called Employee Attendance Report to manage all the attendances of each employee's in PRC Baguio. We are also assigned to print and photocopy
+                                all the documents of each client everyday.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">November 11, 2017</p>
+                                <h3 class="item-title">GDG DevFest University of Cordilleras Baguio City</h3>
+                                <h5>Open Source Web Development and Mobile Application Development</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Topic is all about Web Development and Mobile Application.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">March 31, 2017</p>
+                                <h3 class="item-title">College of Computing Week Seminar Pangasinan State University Urdaneta Campus</h3>
+                                <h5>Empowering people and innovation in Computing towards ASEAN Globalization</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end about-experience -->
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services ss-dark target-section">
+        <div class="shadow-overlay"></div>
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Capabilities</h2>
+                <p class="section-desc">
+                    Basic Knowledge and Skills
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Programming Languages</h4>
+                    <p>
+                    C#, Visual Basic, Javascript, and PHP
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Database (DBMS)</h4>
+                    <p>
+                    Microsoft Access, MS SQL and My SQL
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Web Design</h4>
+                    <p>
+                    Bootstrap Framework, Javascript/Jquery, CSS and HTML
+                    </p>
+                </div>
+            </div>
+			
+			<div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Frameworks</h4>
+                    <p>
+                    ASP.NET, MVC, .Net Core, Razor, EF 6 and EF Core (C# Language)
+                    </p>
+                </div>
+            </div>
+        </div> <!-- end services-list -->
+    </section> <!-- end s-services -->
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <p class="section-desc">
+                    Here are some of my selected works I have done lately. Feel free to 
+                    check them out.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="masonry-wrap">
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/OEROS.jpg" class="thumb-link" title="OEROS" data-size="1050x700" />
+                                <img src="images/portfolio/OEROS.jpg" />
+                            </a>    
+                            <a href="https://drive.google.com/open?id=1dubUuEDIrntj1N6o2OaSnMwpW8JiND1e" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Online Event Reservation and Organizing System for Gravidez Fashion House
+                            </h4>
+                            <p class="item-folio__cat">
+                                Final Project(THESIS)
+                            </p>
+                            <p>
+                                This is our developed project for our thesis, this web app has 2 users (admin and client). This system can handle different events like wedding, birthday/debut, christening and corporate events. They can reserve their event schedules and select appropriate event package such as dresses and formal attires, venue and reception, and more.
+                            </p><br />
+                            <strong>Developed Using: </strong><p>Open Source PHP and MySQL as a backend, Javascript/JQuery for frontend and Bootstrap, HTML and CSS for design.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/ARS.png" class="thumb-link" title="ARS" data-size="1050x700">
+                                <img src="images/portfolio/ARS.png" />
+                            </a>
+                            <a href="https://drive.google.com/open?id=1QOFfbVkn9aryibhyr9dPpz60CIuwnP_J" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Attendance Report System for PRC Baguio
+                            </h4>
+                            <p class="item-folio__cat">
+                                Internship Project
+                            </p>
+                        </div>
+                        <p>I developed this system to help manage PRC employee attendance's, this system produces 4 reports such as (Flag Raising Ceremony, Attendance Frequency, Monthly Summary of Daily Attendance and Job Orders). The system then calculate the number of tardiness, half days, and leave's each employee has</p><br />
+                        <strong>Developed Using: </strong><p>.NET C#, MS Access, and Crystal Report</p>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/OQES.png" class="thumb-link" title="OQES" data-size="1050x700">
+                                <img src="images/portfolio/OQES.png" />
+                            </a>
+                            <a href="https://drive.google.com/open?id=1IcnspcVmHedFPuBofLjJ8VJCbZbyvYxg" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Online Quiz and Examination System
+                            </h4>
+                            <p class="item-folio__cat">
+                                Practitioner Project
+                            </p>
+                        </div>
+                        <p>This system helps instructor create quizzes and examination in paperless manner.</p><br />
+                        <strong>Developed Using: </strong>
+                        <p>ASP.NET C#, MS SQL, Javascript/JQuery, Bootstrap, HTML and CSS</p>
+                    </div>
+                </div> <!-- end masonry__brick -->
+            </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
+    </section> <!-- end s-work -->
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Get In Touch</h2>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+            <div class="column large-7 medium-full contact-phone">
+                <h4>Email Me</h4>
+                <a href="#">rjhaybaterina12@gmail.com</a>
+                <h4>Call Me</h4>
+                <a href="tel:0995-455-7682">09954557682</a>
+            </div>
+        </div> <!-- end contact-infos -->
+    </section> <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>© Copyright Epitome 2019</span> 
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
